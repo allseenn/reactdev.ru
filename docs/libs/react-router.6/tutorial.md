@@ -621,7 +621,7 @@ export default function Root() {
       <div id="sidebar">
         <h1>React Router Contacts</h1>
         <div>
-          {/* other code */}
+          {/* after form with id="search-form" */}
           <Form method="post">
             <button type="submit">New</button>
           </Form>
