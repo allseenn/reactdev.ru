@@ -502,7 +502,7 @@ export async function loader() {
 
 ```jsx title="src/main.jsx" hl_lines="2 9"
 /* other imports */
-import Root, { loader as rootLoader } from "./routes/root";
+import { loader as rootLoader } from "./routes/root";
 
 const router = createBrowserRouter([
   {
